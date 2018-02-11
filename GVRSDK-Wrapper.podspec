@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "GVRSDK-Wrapper"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "A short description of GVRSDK-Wrapper."
 
   # This description is used to generate tags and improve search results.
@@ -134,6 +134,6 @@ Pod::Spec.new do |s|
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
   s.dependency 'GTMSessionFetcher/Core'
-  s.dependency 'GoogleToolboxForMac/Logger''
+  s.dependency 'GoogleToolboxForMac/Logger'
 
 end
