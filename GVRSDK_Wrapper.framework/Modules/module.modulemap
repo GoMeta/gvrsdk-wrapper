@@ -1,0 +1,6 @@
+framework module GVRSDK_Wrapper {
+  umbrella header "GVRSDK_Wrapper.h"
+
+  export *
+  module * { export * }
+}
