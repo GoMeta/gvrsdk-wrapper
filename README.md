@@ -18,9 +18,11 @@ target 'APP_TARGET' do
 end
 ```
 
+If you would like to include this as a framework dependency, you can do it in the normal way (e.g., `s.dependency 'GVRSDK-Wrapper'`). You will, however, need to make sure that the app target's Podfile includes the `meta-ios-pods` source.
+
 ## Current Version
 
-This framework is currently built against GVRSDK v1.120.0
+This framework is currently built against GVRSDK v1.120.0.
 
 ## Building
 
