@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "GVRSDK-Wrapper"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A short description of GVRSDK-Wrapper."
 
   # This description is used to generate tags and improve search results.
@@ -80,8 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/GVRSDK-Wrapper.git", :tag => "#{s.version}" }
-
+  s.source       = { :git => "https://github.com/GoMeta/gvrsdk-wrapper.git", :tag => "#{s.version}" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -134,5 +133,7 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
+  s.dependency 'GTMSessionFetcher/Core'
+  s.dependency 'GoogleToolboxForMac/Logger''
 
 end
