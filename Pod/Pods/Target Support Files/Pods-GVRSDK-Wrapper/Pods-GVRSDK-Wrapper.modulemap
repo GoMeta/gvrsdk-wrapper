@@ -1,0 +1,6 @@
+framework module Pods_GVRSDK_Wrapper {
+  umbrella header "Pods-GVRSDK-Wrapper-umbrella.h"
+
+  export *
+  module * { export * }
+}
